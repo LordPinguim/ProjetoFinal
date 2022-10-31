@@ -12,7 +12,7 @@
         <!--Main Quiz View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="mainQuiz" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="MainQuizViewController" customModule="MiniQuiz" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Main" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="MainQuizViewController" customModule="MiniQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -34,9 +34,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhI-pZ-dwV">
-                                <rect key="frame" x="16" y="172" width="163" height="47"/>
+                                <rect key="frame" x="16" y="147" width="343" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.89000000000000001" green="0.40451333420000002" blue="0.48551308650000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="systemCyanColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Matematica">
                                     <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="21"/>
@@ -46,18 +46,96 @@
                                     <action selector="btShowMath:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sjU-mn-Jd7"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h4p-hi-9oA">
-                                <rect key="frame" x="187" y="172" width="163" height="47"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7vK-xO-ZQO">
+                                <rect key="frame" x="16" y="219" width="188" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.89000000000000001" green="0.40451333420000002" blue="0.48551308650000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Geografia">
+                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="21"/>
+                                    <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="btShowGeo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="44c-mA-z4f"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="it1-Sp-DEo">
+                                <rect key="frame" x="16" y="422" width="343" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.68160114114768267" green="0.89000000000000001" blue="0.29129002194051706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Biologia">
+                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="21"/>
+                                    <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="btShowBio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9qm-a9-7Vo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h4p-hi-9oA">
+                                <rect key="frame" x="203" y="219" width="156" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Português">
+                                <buttonConfiguration key="configuration" style="filled" title="Historia">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="btShowPort:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nG8-hN-pNV"/>
+                                    <action selector="btShowHist:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HcM-Jp-7AJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j77-Tc-stN">
+                                <rect key="frame" x="203" y="354" width="156" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.14936745530162068" green="0.58203125" blue="0.25753340397621549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Quimica">
+                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="21"/>
+                                    <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="btShowQuim:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FlE-0X-4iS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ci0-LR-j1a">
+                                <rect key="frame" x="16" y="512" width="343" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.63171369830047264" green="0.48627993075875448" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Fisica">
+                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="21"/>
+                                    <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="btShowFisc:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OEX-4V-Cdu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Az-eY-bU9">
+                                <rect key="frame" x="16" y="302" width="187" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.89000000000000001" green="0.40451333420000002" blue="0.48551308650000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Artes">
+                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="21"/>
+                                    <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="btShowArt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vu5-np-jwz"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V4h-qV-x74">
+                                <rect key="frame" x="16" y="600" width="343" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="FIM">
+                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="21"/>
+                                    <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="btShowFim:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KSc-D2-vG6"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -179,7 +257,7 @@
                                     <backgroundConfiguration key="background" image="xmark.circle.fill" catalog="system"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="01B-2K-dA0" kind="unwind" unwindAction="returnMainViewWithSegue:" id="tBZ-pe-U8J"/>
+                                    <segue destination="01B-2K-dA0" kind="unwind" unwindAction="returnMainViewWithSegue:" id="k45-Te-nzt"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -272,7 +350,7 @@
                                     <backgroundConfiguration key="background" image="arrow.clockwise.circle.fill" catalog="system"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="MeD-Cp-Db9" kind="unwind" unwindAction="returnMainViewWithSegue:" id="Z16-iO-44e"/>
+                                    <segue destination="MeD-Cp-Db9" kind="unwind" unwindAction="returnMainViewWithSegue:" id="IXK-3T-2xz"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -296,14 +374,23 @@
     <resources>
         <image name="arrow.clockwise.circle.fill" catalog="system" width="128" height="123"/>
         <image name="xmark.circle.fill" catalog="system" width="128" height="123"/>
+        <systemColor name="systemCyanColor">
+            <color red="0.19607843137254902" green="0.67843137254901964" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemIndigoColor">
             <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemMintColor">
             <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
