@@ -40,11 +40,12 @@ class QuizViewController: UIViewController {
             performSegue(withIdentifier: "segueResult", sender: nil)
         }
         }
+    /*
     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
         let RESULT = segue.destination as! ResultViewController
         RESULT.numberCorrect = manager.numberCorret
         RESULT.numberWrong = manager.numberWrong
         RESULT.scoreCorrect = manager.numberCorret
         RESULT.numberWrong = manager.numberWrong
-    }
+    }*/
 }

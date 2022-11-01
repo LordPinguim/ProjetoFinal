@@ -248,18 +248,6 @@
                                     <action selector="btOpcoes:" destination="DSG-mG-5wQ" eventType="touchUpInside" id="so6-gW-DB0"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VTd-09-VMJ">
-                                <rect key="frame" x="309" y="10" width="50" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" systemColor="systemRedColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <backgroundConfiguration key="background" image="xmark.circle.fill" catalog="system"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="01B-2K-dA0" kind="unwind" unwindAction="returnMainViewWithSegue:" id="k45-Te-nzt"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Xc8-pa-rVa"/>
                         <color key="backgroundColor" red="0.69795501209999999" green="0.76330322660000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -276,7 +264,6 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r1K-hc-xsN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <exit id="01B-2K-dA0" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="802.39999999999998" y="-9.4452773613193415"/>
         </scene>
@@ -373,7 +360,6 @@
     </scenes>
     <resources>
         <image name="arrow.clockwise.circle.fill" catalog="system" width="128" height="123"/>
-        <image name="xmark.circle.fill" catalog="system" width="128" height="123"/>
         <systemColor name="systemCyanColor">
             <color red="0.19607843137254902" green="0.67843137254901964" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
