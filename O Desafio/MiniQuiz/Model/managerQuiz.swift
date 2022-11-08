@@ -1,8 +1,3 @@
-//
-//  managerQuiz.swift
-//  MiniQuiz
-//
-//  Created by ICMMAC08-5617 on 11/10/22.
 import Foundation
 
 class managerQuiz{
@@ -38,7 +33,7 @@ class managerQuiz{
         Quiz(pergunta: "Desafio 14: Durante as disputa da Primeira Grande Guerra, o mundo se viu dividido em grandes grupos, conhecidos por Tríplice Entente e Tríplice Aliança, sabendo disso quais eram os paises presentes na Tríplice Aliança?", opçoes: ["Itália, Otomano, Alemanha e Áustria-Hungria", "Japão. EUA e França", "Rússia, Grã-Bretanha e França", "Grã-Bretanha, França e China"], respostacorreta: 0),
         Quiz(pergunta: "Desafio 15:As trincheiras eram corredores subterrâneos construídos para abrigar os soldados e separar os exércitos que lutavam entre si. Muitas vezes, a distância entre uma trincheira e outra era mínima. O espaço entre as trincheiras era conhecido como?", opçoes: ["Area de Fogo Cruzado", "Fogo Cruzado", "Terra de Ninguém", "Terra da Polvorá"], respostacorreta: 2),
         Quiz(pergunta: "Desafio 16: A Segunda Guerra Mundial foi um conflito de escala global e ficou marcado por evento como holocausto e o uso de bombas atômicas. Quando ocorreu este terrivel evento?", opçoes: ["1939 e 1945", "1920 e 1940", "1914 3 1918", "1908 e 1920"], respostacorreta: 0),
-        Quiz(pergunta: "Desafio 17:", opçoes: ["", "", "", ""], respostacorreta: 0),
+        /*Quiz(pergunta: "Desafio 17:", opçoes: ["", "", "", ""], respostacorreta: 0),
         Quiz(pergunta: "Desafio 18:", opçoes: ["", "", "", ""], respostacorreta: 0),
         Quiz(pergunta: "Desafio 19:", opçoes: ["", "", "", ""], respostacorreta: 0),
         //Geo
@@ -97,23 +92,28 @@ class managerQuiz{
         Quiz(pergunta: "Desafio 68:", opçoes: ["", "", "", ""], respostacorreta: 0),
         Quiz(pergunta: "Desafio 69:", opçoes: ["", "", "", ""], respostacorreta: 0),
         //O FIM
-        Quiz(pergunta: "O DESAFIO:", opçoes: ["", "", "", ""], respostacorreta: 0)
+        Quiz(pergunta: "O DESAFIO:", opçoes: ["", "", "", ""], respostacorreta: 0)*/
     ]
     
     var managerQCont = -1
-    var numberCorret = 0
+    var numberCorrect = 0
     var numberWrong = 0
+    var scoreCorrect = 0
+    var scoreWrong = 0
     
     func managerQReloadQuiz() -> Quiz{
         managerQCont = managerQCont + 1
         return managerQMinhasperguntas[managerQCont]
     }
+    
     func quizAnswer(index: Int)->Bool{
         if managerQMinhasperguntas[managerQCont].respostacorreta == index{
-            numberCorret = numberCorret+1
+            numberCorrect = numberCorrect+1
+            scoreCorrect = scoreCorrect+5
             return true
         }else{
             numberWrong = numberWrong+1
+            scoreWrong = scoreWrong+1
             return false
         }
     }

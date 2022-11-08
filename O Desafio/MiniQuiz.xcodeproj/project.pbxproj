@@ -17,6 +17,7 @@
 		68122F0128F6176D00F9E457 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68122F0028F6176D00F9E457 /* ResultViewController.swift */; };
 		68122F0328F6181200F9E457 /* ModelQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68122F0228F6181200F9E457 /* ModelQuiz.swift */; };
 		68122F0528F6182300F9E457 /* managerQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68122F0428F6182300F9E457 /* managerQuiz.swift */; };
+		BB571D6B291AF0E800879F5B /* Cores.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB571D6A291AF0E800879F5B /* Cores.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		68122F0028F6176D00F9E457 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		68122F0228F6181200F9E457 /* ModelQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelQuiz.swift; sourceTree = "<group>"; };
 		68122F0428F6182300F9E457 /* managerQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = managerQuiz.swift; sourceTree = "<group>"; };
+		BB571D6A291AF0E800879F5B /* Cores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cores.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 			children = (
 				68122EF028F6148F00F9E457 /* LaunchScreen.storyboard */,
 				68122EEB28F6148E00F9E457 /* Main.storyboard */,
+				BB571D6A291AF0E800879F5B /* Cores.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 			files = (
 				68122F0128F6176D00F9E457 /* ResultViewController.swift in Sources */,
 				68122EE628F6148E00F9E457 /* AppDelegate.swift in Sources */,
+				BB571D6B291AF0E800879F5B /* Cores.swift in Sources */,
 				68122F0528F6182300F9E457 /* managerQuiz.swift in Sources */,
 				68122EFD28F6172F00F9E457 /* MainQuizViewController.swift in Sources */,
 				68122EE828F6148E00F9E457 /* SceneDelegate.swift in Sources */,

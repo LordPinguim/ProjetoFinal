@@ -1,10 +1,3 @@
-//
-//  ModelQuiz.swift
-//  MiniQuiz
-//
-//  Created by ICMMAC08-5617 on 11/10/22.
-//
-
 import Foundation
 
 struct Quiz{

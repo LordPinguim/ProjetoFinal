@@ -1,25 +1,34 @@
-//
-//  QuizViewController.swift
-//  MiniQuiz
-//
-//  Created by ICMMAC08-5617 on 11/10/22.
-//
-
 import UIKit
 
 class QuizViewController: UIViewController {
 
+    //Botton
     @IBOutlet weak var question: UILabel!
+    //Minha Label onde aparece pergunta
     @IBOutlet var opcoes: [UIButton]!
+    //Titulo Responda
+    @IBOutlet weak var lbTitulo: UILabel!
+    //Botão de saida
+    @IBOutlet weak var btExtit: UIButton!
+    //Minha View principal
+    @IBOutlet var OneView: UIView!
     
     var manager = managerQuiz()
     var quizGame: Quiz!
+    var continuar = true
     
     override func viewDidLoad() {
         super.viewDidLoad()
         upgrandeQuiz()
+        configuracionColor()
     }
 
+    func configuracionColor(){
+        if manager.managerQCont >= 9{
+            OneView.backgroundColor = .yellow
+        }
+    }
+    
     @IBAction func btOpcoes(_ sender: UIButton) {
         let index = Int(opcoes.firstIndex(of: sender) ?? 0)
         if manager.quizAnswer(index: index){
@@ -38,14 +47,20 @@ class QuizViewController: UIViewController {
             }
         }else{
             performSegue(withIdentifier: "segueResult", sender: nil)
+            }
         }
-        }
-    /*
+    
+    @IBAction func btexit(_ sender: Any) {
+        continuar = false
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
-        let RESULT = segue.destination as! ResultViewController
-        RESULT.numberCorrect = manager.numberCorret
-        RESULT.numberWrong = manager.numberWrong
-        RESULT.scoreCorrect = manager.numberCorret
-        RESULT.numberWrong = manager.numberWrong
-    }*/
+        if continuar{
+            let RESULT = segue.destination as! ResultViewController
+            RESULT.numberCorrect = manager.numberCorrect
+            RESULT.numberWrong = manager.numberWrong
+            RESULT.scoreCorrect = manager.scoreCorrect
+            RESULT.scoreWrong = manager.scoreWrong
+        }
+    }
 }
