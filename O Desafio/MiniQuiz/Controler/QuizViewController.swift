@@ -14,6 +14,7 @@ class QuizViewController: UIViewController {
     @IBOutlet var OneView: UIView!
     
     var manager = managerQuiz()
+    var color = cores()
     var quizGame: Quiz!
     var continuar = true
     
@@ -24,8 +25,17 @@ class QuizViewController: UIViewController {
     }
 
     func configuracionColor(){
-        if manager.managerQCont >= 9{
-            OneView.backgroundColor = .yellow
+        if manager.managerQCont >= 0{
+            OneView.gradientBackground(colorOne: cores.AzulEscuro, colorTwo: cores.Azul)
+            lbTitulo.backgroundColor = cores.AzulEscuro
+            question.backgroundColor = cores.Branco
+            
+        }else if manager.managerQCont >= 9{
+            OneView.gradientBackground(colorOne: cores.Amarelo, colorTwo: cores.Laranja)
+            lbTitulo.backgroundColor = cores.Laranja
+            question.backgroundColor = cores.Branco
+        }else {
+            
         }
     }
     

@@ -23,6 +23,8 @@ class MainQuizViewController: UIViewController {
     
     var MainManager = managerQuiz()
     var quizGame: Quiz!
+    var color = cores()
+    
     let MAIN = UIStoryboard(name: "Main", bundle: nil)
     
     override func viewDidLoad() {
@@ -30,7 +32,7 @@ class MainQuizViewController: UIViewController {
     }
     
     func turnNight(){
-        MainView.backgroundColor = .black
+        MainView.backgroundColor = cores.Night
     }
     
     @IBAction func btTurnNight(_ sender: Any) {

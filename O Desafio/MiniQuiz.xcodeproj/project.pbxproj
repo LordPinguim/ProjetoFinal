@@ -18,6 +18,7 @@
 		68122F0328F6181200F9E457 /* ModelQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68122F0228F6181200F9E457 /* ModelQuiz.swift */; };
 		68122F0528F6182300F9E457 /* managerQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68122F0428F6182300F9E457 /* managerQuiz.swift */; };
 		BB571D6B291AF0E800879F5B /* Cores.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB571D6A291AF0E800879F5B /* Cores.swift */; };
+		BBFFC559291DA0AC009086F9 /* CoresExtenção.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFFC558291DA0AC009086F9 /* CoresExtenção.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		68122F0228F6181200F9E457 /* ModelQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelQuiz.swift; sourceTree = "<group>"; };
 		68122F0428F6182300F9E457 /* managerQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = managerQuiz.swift; sourceTree = "<group>"; };
 		BB571D6A291AF0E800879F5B /* Cores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cores.swift; sourceTree = "<group>"; };
+		BBFFC558291DA0AC009086F9 /* CoresExtenção.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoresExtenção.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				68122EF028F6148F00F9E457 /* LaunchScreen.storyboard */,
 				68122EEB28F6148E00F9E457 /* Main.storyboard */,
 				BB571D6A291AF0E800879F5B /* Cores.swift */,
+				BBFFC558291DA0AC009086F9 /* CoresExtenção.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				BB571D6B291AF0E800879F5B /* Cores.swift in Sources */,
 				68122F0528F6182300F9E457 /* managerQuiz.swift in Sources */,
 				68122EFD28F6172F00F9E457 /* MainQuizViewController.swift in Sources */,
+				BBFFC559291DA0AC009086F9 /* CoresExtenção.swift in Sources */,
 				68122EE828F6148E00F9E457 /* SceneDelegate.swift in Sources */,
 				68122F0328F6181200F9E457 /* ModelQuiz.swift in Sources */,
 				68122EFF28F6174300F9E457 /* QuizViewController.swift in Sources */,

@@ -2,6 +2,8 @@ import UIKit
 
 class ResultViewController: UIViewController {
     
+    var color = cores()
+    
     @IBOutlet weak var lbAcerto: UILabel!
     @IBOutlet weak var lbErros: UILabel!
     @IBOutlet weak var pontuacao: UILabel!
