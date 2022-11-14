@@ -55,7 +55,7 @@
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" backgroundImage="História"/>
+                                <state key="normal" backgroundImage="História"/>
                                 <connections>
                                     <action selector="btShowHist:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FDe-M0-M5o"/>
                                 </connections>
@@ -66,7 +66,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="21"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" backgroundImage="Química">
+                                <state key="normal" backgroundImage="Química">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -79,7 +79,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="21"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" backgroundImage="Física">
+                                <state key="normal" backgroundImage="Física">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -105,7 +105,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="21"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" backgroundImage="Matemática">
+                                <state key="normal" backgroundImage="Matemática">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -420,14 +420,14 @@
         <image name="Artes" width="90" height="97"/>
         <image name="Biologia" width="90" height="97"/>
         <image name="Botão de configuração" width="50" height="92"/>
-        <image name="Física" width="90" height="97"/>
+        <image name="Física" width="90" height="97"/>
         <image name="Geografia" width="90" height="97"/>
-        <image name="História" width="90" height="97"/>
+        <image name="História" width="90" height="97"/>
         <image name="Informações" width="46" height="40"/>
         <image name="Lua" width="46" height="40"/>
-        <image name="Matemática" width="90" height="97"/>
+        <image name="Matemática" width="90" height="97"/>
         <image name="O FIM" width="343" height="138"/>
-        <image name="Química" width="90" height="97"/>
+        <image name="Química" width="90" height="97"/>
         <image name="Titulo_Principal" width="327" height="92"/>
         <image name="arrow.clockwise.circle.fill" catalog="system" width="128" height="123"/>
         <image name="xmark" catalog="system" width="128" height="113"/>
