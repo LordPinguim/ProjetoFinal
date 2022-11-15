@@ -1,7 +1,7 @@
 import Foundation
 
 class managerSistem {
-    var explicar: [Projeto] = [Projeto(titulo: "Sol", informacao: "", ilustrativo: ""),
+    var explicar: [Projeto] = [Projeto(titulo: "Sol", informacao: "O sol é uma grande estrela", ilustrativo: "sol"),
                                Projeto(titulo: "Sol", informacao: "", ilustrativo: ""),
                                Projeto(titulo: "Sol", informacao: "", ilustrativo: ""),
                                Projeto(titulo: "Sol", informacao: "", ilustrativo: ""),
