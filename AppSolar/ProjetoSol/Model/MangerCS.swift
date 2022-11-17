@@ -10,12 +10,35 @@ class managerSistem {
                                Projeto(titulo: "Mercurio", informacao: "", ilustrativo: ""),
                                Projeto(titulo: "Mercurio", informacao: "", ilustrativo: ""),
                                Projeto(titulo: "Venus", informacao: "", ilustrativo: ""),
-                               Projeto(titulo: "", informacao: "", ilustrativo: "")
+                               Projeto(titulo: "Venus", informacao: "", ilustrativo: ""),
+                               Projeto(titulo: "Venus", informacao: "", ilustrativo: ""),
+                               Projeto(titulo: "Venus", informacao: "", ilustrativo: ""),
+                               Projeto(titulo: "Terra", informacao: "", ilustrativo: ""),
+                               Projeto(titulo: "Terra", informacao: "", ilustrativo: ""),
+                               Projeto(titulo: "Terra", informacao: "", ilustrativo: ""),
+                               Projeto(titulo: "Terra", informacao: "", ilustrativo: ""),
+                               Projeto(titulo: "Marte", informacao: "", ilustrativo: ""),
+                               Projeto(titulo: "Marte", informacao: "", ilustrativo: ""),
+                               Projeto(titulo: "Marte", informacao: "", ilustrativo: ""),
+                               Projeto(titulo: "Marte", informacao: "", ilustrativo: ""),
+                               Projeto(titulo: "Jupiter", informacao: "", ilustrativo: ""),
+                               Projeto(titulo: "Jupiter", informacao: "", ilustrativo: ""),
+                               Projeto(titulo: "Jupiter", informacao: "", ilustrativo: ""),
+                               Projeto(titulo: "Jupiter", informacao: "", ilustrativo: ""),
+                               Projeto(titulo: "Saturno", informacao: "", ilustrativo: ""),
+                               Projeto(titulo: "Saturno", informacao: "", ilustrativo: ""),
+                               Projeto(titulo: "Saturno", informacao: "", ilustrativo: ""),
+                               Projeto(titulo: "Saturno", informacao: "", ilustrativo: ""),
+                               Projeto(titulo: "Neturno", informacao: "", ilustrativo: ""),
+                               Projeto(titulo: "Neturno", informacao: "", ilustrativo: ""),
+                               Projeto(titulo: "Neturno", informacao: "", ilustrativo: ""),
+                               Projeto(titulo: "Neturno", informacao: "", ilustrativo: ""),
+                               Projeto(titulo: "Urano", informacao: "", ilustrativo: ""),
+                               Projeto(titulo: "Urano", informacao: "", ilustrativo: ""),
+                               Projeto(titulo: "Urano", informacao: "", ilustrativo: ""),
+                               Projeto(titulo: "Urano", informacao: "", ilustrativo: ""),
+                               Projeto(titulo: "Extra", informacao: "", ilustrativo: "")
     ]
-    
-    func quantidade() -> Int {
-        return explicar.count
-    }
     
     func MoverDex(index: Int) -> Projeto{
         return explicar[index]

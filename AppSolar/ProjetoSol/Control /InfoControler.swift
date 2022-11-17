@@ -8,7 +8,7 @@ class InfoControler: UIViewController {
     @IBOutlet weak var lbExplicar: UILabel!
     @IBOutlet weak var ImagemPrincipal: UIImageView!
     
-    @IBOutlet weak var btback: UIButton!
+    //@IBOutlet weak var btback: UIButton!
     @IBOutlet weak var btnext: UIButton!
     
     var confirmationResult = false
@@ -21,19 +21,16 @@ class InfoControler: UIViewController {
         super.viewDidLoad()
         
         btnext.isHidden = true
-        btback.isHidden = true
-        
-        if manager.quantidade() > 0 {
-            reloadProjeto()
-        }
+        //btback.isHidden = true
         
         if manager.explicar.count > 0 {
+            Titulo.text = manager.explicar[0].titulo
             lbExplicar.text = manager.explicar[0].informacao
             btnext.isHidden = false
             }
     }
     
-    @IBAction func btShowBack(_ sender: Any) {
+    /*@IBAction func btShowBack(_ sender: Any) {
         Dex = Dex - 1
         ProjetoSol = manager.MoverDex(index: Dex)
         btback.isHidden =  false
@@ -41,13 +38,13 @@ class InfoControler: UIViewController {
         if Dex < 1{
             btnext.isHidden = true
         }
-    }
+    }*/
     
     @IBAction func btShowNext(_ sender: Any) {
-        Dex = Dex+1
+        Dex = Dex + 1
         ProjetoSol = manager.MoverDex(index: Dex)
         lbExplicar.text = ProjetoSol.informacao
-        btback.isHidden =  false
+        //btback.isHidden =  false
         
         if (Dex+1) == manager.explicar.count{
             btnext.isHidden = true
@@ -56,8 +53,11 @@ class InfoControler: UIViewController {
     }
     
     func reloadProjeto(){
-            ProjetoSol = manager.MoverDex(index: Dex)
+        ProjetoSol = manager.reloadSistem()
         lbExplicar.text = "\(ProjetoSol.informacao)"
+        for i  in 0...3{
+            lbExplicar[i].setTitle(ProjetoSol.informacao[i], for: .normal)
+        }
         }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
