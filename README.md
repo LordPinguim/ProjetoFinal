@@ -1,39 +1,33 @@
-# O Desafio - Projeto Final
-Projeto final, representando todo meu avanço durante o Coding Club.
+![AppSol (1)](https://user-images.githubusercontent.com/97364522/202912499-9955afa8-d536-48e7-8f50-448b3705d2b8.png)
 
-=======================================================================================================
 
-[Público Alvo]
-- 9 ano do Ensino Fundundamental até o 3 ano do Ensino Medio.
+<h1 align="center"> AppSol </h1>
 
-[Assunto]
--> Quiz de Perguntas e Respostas.
-- Sobre Assuntos Escolares;
-- Auxilio nos Estudos extra curriculares;
-- Desafia o consumidor a buscar mais sobre o assunto;
-- Desafiar o consumidor a procurar a resposta certa, pensando que o score não constará qual delas estará errada.
+<p align="center">
+<img src="https://img.shields.io/badge/Code-Swift-orange"/>
+<img src="https://img.shields.io/badge/Coding-Club-blue"/>
+</p>
 
-[Escopo]
+## Descrição do Projeto
+Aplicativo programado na linguagem Swift com o proposito de apresentar o sistema solar de uma forma mais atrativa, com isso desenvolvemos esse aplicativo, englobando todos os planetas e um extra.
 
-- View Principal (Botões representando as materias);
-- View Quiz (Onde ocorrerar o quiz com suas perguntas);
-- View de Score (Será possivel verificar seu progresso na respectiva materia).
+![Imagem Ilustrativa](https://user-images.githubusercontent.com/97364522/202911632-fdab4086-b9bc-404c-8b88-18b221480e61.png)
 
-{Um total de [3] View Controller}
+## Status do Projeto
+:earth_americas: Em Beta :earth_americas:
 
-[Calendário de Entrega]
+# :milky_way: Funcionalidades do App
 
--->Entrega Final 25/11<--
+- `Funcionalidade 1`: O aplicativo ajuda alunos com curiosidade de descobrir mais sobre o sistema solar.
+- `Funcionalidade 2`: Possibilidade de utilização mesmo sem internet.
+- `Funcionalidade 3`: Um hud intuitivo e de facil entendimento.
 
-[Responsabilidades] - MVC
+## :computer: Tecnologias utilizadas :computer:
 
-João Fernandes
-- Programação (Controler/Model)
+- :ballot_box_with_check: `XCode`
+- :ballot_box_with_check: `Canvas`
 
-Jullye Lavínia
-- Designer (View)
+<h1 align="center"> Desenvolvedores </h1>
 
-Rafael Valladares
-- Constrains 
-
-=======================================================================================================
+| [<img src="https://user-images.githubusercontent.com/97364522/202913479-6b735de6-e44b-4d77-afd3-e08b6c458b79.jpg" width=115><br><sub>João Felipe Fernandes</sub>](https://github.com/LordPinguim) |  [<img src="" width=115><br><sub>Rafael Valladares</sub>](https://github.com/Rafaelvalladares) |  [<img src="" width=115><br><sub>Jullye Lavínia</sub>](https://github.com/LaviniaJ) |
+| :---: | :---: | :---: |
