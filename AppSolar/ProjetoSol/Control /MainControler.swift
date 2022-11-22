@@ -22,7 +22,7 @@ class MainControler: UIViewController {
     
     @IBAction func Mercurio(_ sender: Any) {
         let VIEW_INFO:  InfoControler = MAIN.instantiateViewController(withIdentifier: "Info") as! InfoControler
-                manager.Dex = 3
+                manager.Dex = 1
                 manager.passandoInfo = 0
                 VIEW_INFO.manager = manager
                 present(VIEW_INFO, animated: true)
@@ -31,7 +31,7 @@ class MainControler: UIViewController {
     
     @IBAction func Venus(_ sender: Any) {
         let VIEW_INFO:  InfoControler = MAIN.instantiateViewController(withIdentifier: "Info") as! InfoControler
-                manager.Dex = 7
+                manager.Dex = 3
                 manager.passandoInfo = 0
                 VIEW_INFO.manager = manager
                 present(VIEW_INFO, animated: true)
@@ -40,7 +40,7 @@ class MainControler: UIViewController {
     
     @IBAction func Terra(_ sender: Any) {
         let VIEW_INFO:  InfoControler = MAIN.instantiateViewController(withIdentifier: "Info") as! InfoControler
-                manager.Dex = 11
+                manager.Dex = 5
                 manager.passandoInfo = 0
                 VIEW_INFO.manager = manager
                 present(VIEW_INFO, animated: true)
@@ -49,7 +49,7 @@ class MainControler: UIViewController {
     
     @IBAction func Marte(_ sender: Any) {
         let VIEW_INFO:  InfoControler = MAIN.instantiateViewController(withIdentifier: "Info") as! InfoControler
-                manager.Dex = 14
+                manager.Dex = 7
                 manager.passandoInfo = 0
                 VIEW_INFO.manager = manager
                 present(VIEW_INFO, animated: true)
@@ -58,7 +58,7 @@ class MainControler: UIViewController {
     
     @IBAction func Jupiter(_ sender: Any) {
         let VIEW_INFO:  InfoControler = MAIN.instantiateViewController(withIdentifier: "Info") as! InfoControler
-                manager.Dex = 17
+                manager.Dex = 9
                 manager.passandoInfo = 0
                 VIEW_INFO.manager = manager
                 present(VIEW_INFO, animated: true)
@@ -67,7 +67,7 @@ class MainControler: UIViewController {
     
     @IBAction func Saturno(_ sender: Any) {
         let VIEW_INFO:  InfoControler = MAIN.instantiateViewController(withIdentifier: "Info") as! InfoControler
-                manager.Dex = 20
+                manager.Dex = 11
                 manager.passandoInfo = 0
                 VIEW_INFO.manager = manager
                 present(VIEW_INFO, animated: true)
@@ -76,7 +76,7 @@ class MainControler: UIViewController {
     
     @IBAction func Urano(_ sender: Any) {
         let VIEW_INFO:  InfoControler = MAIN.instantiateViewController(withIdentifier: "Info") as! InfoControler
-                manager.Dex = 23
+                manager.Dex = 13
                 manager.passandoInfo = 0
                 VIEW_INFO.manager = manager
                 present(VIEW_INFO, animated: true)
@@ -85,7 +85,7 @@ class MainControler: UIViewController {
     
     @IBAction func Neturno(_ sender: Any) {
         let VIEW_INFO:  InfoControler = MAIN.instantiateViewController(withIdentifier: "Info") as! InfoControler
-                manager.Dex = 26
+                manager.Dex = 15
                 manager.passandoInfo = 0
                 VIEW_INFO.manager = manager
                 present(VIEW_INFO, animated: true)

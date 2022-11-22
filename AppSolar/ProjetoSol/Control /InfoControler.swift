@@ -20,44 +20,31 @@ class InfoControler: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        btnext.isHidden = true
+        //btnext.isHidden = true
         //btback.isHidden = true
         
-        if manager.explicar.count > 0 {
-            Titulo.text = manager.explicar[0].titulo
-            lbExplicar.text = manager.explicar[0].informacao
-            btnext.isHidden = false
-            }
+        reloadProjeto()
+        
+        //if manager.explicar.count > 0 {
+        //    Titulo.text = manager.explicar[0].titulo
+        //    lbExplicar.text = manager.explicar[0].informacao
+        //    btnext.isHidden = false
+        //    }
     }
     
-    /*@IBAction func btShowBack(_ sender: Any) {
-        Dex = Dex - 1
-        ProjetoSol = manager.MoverDex(index: Dex)
-        btback.isHidden =  false
-        
-        if Dex < 1{
-            btnext.isHidden = true
-        }
-    }*/
-    
     @IBAction func btShowNext(_ sender: Any) {
-        Dex = Dex + 1
-        ProjetoSol = manager.MoverDex(index: Dex)
-        lbExplicar.text = ProjetoSol.informacao
-        //btback.isHidden =  false
-        
-        if (Dex+1) == manager.explicar.count{
-            btnext.isHidden = true
-            
+        if manager.verificarFinal(){
+            performSegue(withIdentifier: "segueResult", sender: nil)
+        } else{
+            reloadProjeto()
         }
     }
     
     func reloadProjeto(){
         ProjetoSol = manager.reloadSistem()
         lbExplicar.text = "\(ProjetoSol.informacao)"
-        for i  in 0...3{
-            lbExplicar[i].setTitle(ProjetoSol.informacao[i], for: .normal)
-        }
+        Titulo.text = "\(ProjetoSol.titulo)"
+        ImagemPrincipal.image = UIImage(named: ProjetoSol.ilustrativo)
         }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
