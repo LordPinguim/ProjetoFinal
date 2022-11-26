@@ -9,7 +9,7 @@
 </p>
 
 ## Descrição do Projeto
-Aplicativo programado na linguagem Swift com o proposito de apresentar o sistema solar de uma forma mais atrativa, com isso desenvolvemos esse aplicativo, englobando todos os planetas e um extra.
+AppSol é um aplicativo em que você consegue explorar mais a fundo os planetas do sistema solar, podendo ver e aprender desde do sol até Neturno! Explore o Sol, descubrar mais sobre os planetas e se torne um mestre sobre o sistema solar.
 
 ![Imagem Ilustrativa](https://user-images.githubusercontent.com/97364522/202911632-fdab4086-b9bc-404c-8b88-18b221480e61.png)
 
@@ -29,5 +29,5 @@ Aplicativo programado na linguagem Swift com o proposito de apresentar o sistema
 
 <h1 align="center"> Desenvolvedores </h1>
 
-| [<img src="https://user-images.githubusercontent.com/97364522/202913479-6b735de6-e44b-4d77-afd3-e08b6c458b79.jpg" width=115><br><sub>João Felipe Fernandes</sub>](https://github.com/LordPinguim) |  [<img src="" width=115><br><sub>Rafael Valladares</sub>](https://github.com/Rafaelvalladares) |  [<img src="" width=115><br><sub>Jullye Lavínia</sub>](https://github.com/LaviniaJ) |
+| [<img src="https://user-images.githubusercontent.com/97364522/202913479-6b735de6-e44b-4d77-afd3-e08b6c458b79.jpg" width=115><br><sub>João Felipe Fernandes</sub>](https://github.com/LordPinguim) |  [<img src="" width=115><br><sub>Rafael Valladares</sub>](https://github.com/Rafaelvalladares) |  [<img src="https://user-images.githubusercontent.com/97364522/204093282-35b1975c-bca8-4118-8adc-85db37b1d324.jpeg" width=115><br><sub>Jullye Lavínia</sub>](https://github.com/LaviniaJ) |
 | :---: | :---: | :---: |
