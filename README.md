@@ -29,5 +29,5 @@ AppSol é um aplicativo em que você consegue explorar mais a fundo os planetas 
 
 <h1 align="center"> Desenvolvedores </h1>
 
-| [<img src="https://user-images.githubusercontent.com/97364522/202913479-6b735de6-e44b-4d77-afd3-e08b6c458b79.jpg" width=115><br><sub>João Felipe Fernandes</sub>](https://github.com/LordPinguim) |  [<img src="" width=115><br><sub>Rafael Valladares</sub>](https://github.com/Rafaelvalladares) |  [<img src="https://user-images.githubusercontent.com/97364522/204093282-35b1975c-bca8-4118-8adc-85db37b1d324.jpeg" width=115><br><sub>Jullye Lavínia</sub>](https://github.com/LaviniaJ) |
+| [<img src="https://user-images.githubusercontent.com/97364522/202913479-6b735de6-e44b-4d77-afd3-e08b6c458b79.jpg" width=115><br><sub>João Felipe Fernandes</sub>](https://github.com/LordPinguim) |  [<img src="https://user-images.githubusercontent.com/97364522/204866578-bdadc565-04c4-4328-b7c0-0d4a16c7c54e.jpeg" width=115><br><sub>Rafael Valladares</sub>](https://github.com/Rafaelvalladares) |  [<img src="https://user-images.githubusercontent.com/97364522/204093282-35b1975c-bca8-4118-8adc-85db37b1d324.jpeg" width=115><br><sub>Jullye Lavínia</sub>](https://github.com/LaviniaJ) |
 | :---: | :---: | :---: |
