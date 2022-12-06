@@ -5,67 +5,7 @@ class managerPerguntas {
         //Projeto_Pergunta(perguntas: "", texto: "", nome: ""),
         
         //Sol
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Sol"),
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Sol"),
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Sol"),
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Sol"),
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Sol"),
-        
-        //Mercúrio
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Mercúrio"),
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Mercúrio"),
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Mercúrio"),
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Mercúrio"),
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Mercúrio"),
-        
-        //Vênus
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Vênus"),
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Vênus"),
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Vênus"),
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Vênus"),
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Vênus"),
-        
-        //Terra
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Terra"),
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Terra"),
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Terra"),
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Terra"),
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Terra"),
-        
-        //Marte
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Marte"),
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Marte"),
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Marte"),
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Marte"),
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Marte"),
-        
-        //Júpiter
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Júpiter"),
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Júpiter"),
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Júpiter"),
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Júpiter"),
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Júpiter"),
-        
-        //Saturno
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Saturno"),
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Saturno"),
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Saturno"),
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Saturno"),
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Saturno"),
-        
-        //Urano
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Urano"),
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Urano"),
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Urano"),
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Urano"),
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Urano"),
-        
-        //Neturno
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Neturno"),
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Neturno"),
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Neturno"),
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Neturno"),
-        Projeto_Pergunta(perguntas: "", texto: "", nome: "Neturno"),
+        Projeto_Pergunta(perguntas: ["", "", ""], texto: "", nome: "", respostacorreta: 0)
         
         //Extras (Futuro = Atualizações futuras)
     ]
@@ -76,16 +16,30 @@ class managerPerguntas {
     //Meu Index = Dex
     var DexA = -1
     var TOTALDEX = 5
-    var passandoQuiz = 0
+    var minimo = 0
+    var maximo = 45
+    var respostaCorretas = 0
+    var respostasRespondidas = 0
     
-    func reloadPergunta()-> Projeto_Pergunta{
-        DexA = DexA + 1
+    func upPergunta() -> Projeto_Pergunta {
+        DexA = Int.random(in: minimo...maximo)
+        print(DexA)
         return perguntasCS[DexA]
     }
     
+    func confirmAnswer(posicao:Int) -> Bool{
+        if posicao == perguntasCS[DexA].respostacorreta{
+            respostaCorretas = respostaCorretas + 1
+            return true
+        }else {
+            respostaCorretas = respostaCorretas - 1
+            return false
+        }
+    }
+    
     func verificarFinal() -> Bool{
-        passandoQuiz = passandoQuiz + 1
-        if passandoQuiz == TOTALDEX{
+        respostasRespondidas = respostasRespondidas + 1
+        if respostasRespondidas == TOTALDEX{
             return true
         }else{
             return false
