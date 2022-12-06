@@ -6,6 +6,7 @@ class MainControler: UIViewController {
     let MAIN = UIStoryboard(name: "Main", bundle: nil)
     var manager = managerSistem()
     var ProjetoSol: Projeto!
+    var ProjetoLua: Projeto_Pergunta!
 
     override func viewDidLoad() {
         super.viewDidLoad()

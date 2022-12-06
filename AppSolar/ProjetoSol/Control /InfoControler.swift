@@ -49,8 +49,8 @@ class InfoControler: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if confirmationResult{
-            let VIEW_FIM = segue.destination as! FimControler
-            VIEW_FIM.manager = manager
+            let VIEW_QUIZ = segue.destination as! PerguntasControler
+            VIEW_QUIZ.manager = manager
         }
     }
 }
