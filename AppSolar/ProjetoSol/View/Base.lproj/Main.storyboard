@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="ipad10_9rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <device id="ipad12_9rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -139,6 +139,16 @@
                                                     <action selector="Neturno:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l9c-ku-s7t"/>
                                                 </connections>
                                             </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BeP-iv-8M8" userLabel="extra">
+                                                <rect key="frame" x="0.0" y="1608" width="375" height="92"/>
+                                                <color key="backgroundColor" red="0.74236505679999998" green="0.22797444610000001" blue="0.39461471349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" backgroundImage="Extra"/>
+                                                <connections>
+                                                    <action selector="Extra:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zor-GG-jIh"/>
+                                                </connections>
+                                            </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oim-Kg-wNf" userLabel="Jupiter">
                                                 <rect key="frame" x="52" y="775" width="237" height="224"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -156,13 +166,6 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sistema Solar" translatesAutoresizingMaskIntoConstraints="NO" id="H6a-eR-QEJ">
                                                 <rect key="frame" x="8" y="9" width="281" height="128"/>
                                             </imageView>
-                                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BeP-iv-8M8" userLabel="extra">
-                                                <rect key="frame" x="0.0" y="1608" width="375" height="92"/>
-                                                <color key="backgroundColor" red="0.74236505679999998" green="0.22797444610000001" blue="0.39461471349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" backgroundImage="Extra"/>
-                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.1031767651" green="0.1031767651" blue="0.1031767651" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -238,39 +241,39 @@
             <objects>
                 <viewController storyboardIdentifier="Info" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="UPa-4z-ulI" customClass="InfoControler" customModule="Aula" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AQt-rL-Txp">
-                        <rect key="frame" x="0.0" y="0.0" width="820" height="1180"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Fundo_Info" translatesAutoresizingMaskIntoConstraints="NO" id="ZBc-Nu-2XO">
-                                <rect key="frame" x="0.0" y="0.0" width="820" height="1180"/>
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lHK-sN-pDg">
-                                <rect key="frame" x="0.0" y="0.0" width="820" height="314"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lHK-sN-pDg">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="363.5"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Titulo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HBL-Db-U7W">
-                                <rect key="frame" x="0.0" y="315" width="820" height="72.5"/>
+                                <rect key="frame" x="0.0" y="364.5" width="1024" height="84"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" red="0.97744804620000003" green="0.74289184809999997" blue="0.35072708130000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.97744804620000003" green="0.74289184809999997" blue="0.35072708130000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact">
+                                <variation key="heightClass=regular-widthClass=regular">
                                     <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Informacao" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VpO-0x-a1j">
-                                <rect key="frame" x="16" y="397.5" width="788" height="649.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ok" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VpO-0x-a1j">
+                                <rect key="frame" x="16" y="458.5" width="992" height="757.5"/>
                                 <color key="backgroundColor" red="0.1031767651" green="0.1031767651" blue="0.1031767651" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="My5-RY-aZu">
-                                <rect key="frame" x="544" y="1055" width="260" height="106"/>
+                                <rect key="frame" x="683" y="1224" width="325" height="123"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -280,7 +283,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Wr-O3-stn" userLabel="Xmark">
-                                <rect key="frame" x="660.5" y="36" width="159.5" height="81.5"/>
+                                <rect key="frame" x="824.5" y="36" width="199.5" height="94"/>
                                 <color key="tintColor" systemColor="systemRedColor"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" backgroundImage="X"/>
@@ -337,15 +340,15 @@
             <objects>
                 <viewController storyboardIdentifier="Fim" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="uw3-Nf-sod" customClass="FimControler" customModule="Aula" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="o9i-Al-2Se">
-                        <rect key="frame" x="0.0" y="0.0" width="820" height="1180"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Fundo_Info" translatesAutoresizingMaskIntoConstraints="NO" id="UsQ-bG-cVe">
-                                <rect key="frame" x="0.0" y="0.0" width="820" height="1180"/>
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                                 <color key="backgroundColor" red="0.1031767651" green="0.1031767651" blue="0.1031767651" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ejF-0y-ppb">
-                                <rect key="frame" x="37" y="492" width="746" height="145.5"/>
+                                <rect key="frame" x="37" y="560.5" width="950" height="168.5"/>
                                 <color key="backgroundColor" red="0.078431372549019607" green="0.078431372549019607" blue="0.078431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" systemColor="tertiarySystemBackgroundColor"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -355,10 +358,10 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lua" translatesAutoresizingMaskIntoConstraints="NO" id="wDp-7P-kwt">
-                                <rect key="frame" x="37" y="36" width="746" height="436"/>
+                                <rect key="frame" x="37" y="36" width="950" height="504.5"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="creditos" translatesAutoresizingMaskIntoConstraints="NO" id="ASc-RE-2Gf">
-                                <rect key="frame" x="37" y="815" width="746" height="345"/>
+                                <rect key="frame" x="37" y="937" width="950" height="409"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="aLf-uF-2IR"/>
